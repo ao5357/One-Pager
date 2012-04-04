@@ -90,20 +90,21 @@ sup{bottom:.33em;position:relative;vertical-align:baseline;}
 	.away{overflow:hidden;text-indent:100%;white-space: nowrap;}
 
 /*--Structure--*/
-article,aside,figure,footer,header,hgroup,nav,section{display:block;padding:10px;}
-.page{margin:0 auto;width:960px;}
+article,aside,figure,footer,header,hgroup,nav,section{display:block;}
+	footer,header,nav,section{padding:10px;}
+.page{margin:0 auto;}
 	header{clear:both;margin:10px;}
-		header nav{float:right;text-align:right;}
+		header nav{}
 			header nav a{color:#fffcee;display:block;}
-		header h1 a{color:#fffcee;font-size:2em;text-decoration:none;text-shadow:-2px 2px 3px #514E49;}
+		header h1 a,header h1 a:visited{color:#fffcee;font-size:2em;text-decoration:none;text-shadow:-2px 2px 3px #514E49;}
 		header fieldset{border:0 none;}
 			header legend{display:none;}
-	section{float:left;width:560px;}
-		article{}
-			article h2{background:#fff;cursor:pointer;padding:10px;}
+	section{}
+		.slider{display:none;}
+		article{background:#fff;margin:0 0 10px;}
+			article h2{cursor:pointer;padding:10px;}
 				article h2:hover,article h2:active,article h2:focus{background-color:#444;background-image:-webkit-linear-gradient(#514E49,#5B5956);background-image:-moz-linear-gradient(#514E49,#5B5956);color:#fff;}
-			article .content{display:none;}
-	aside{float:right;}
+			article .content{padding:10px;}
 	footer{clear:both;margin:10px;}
 
 /*--Media Queries--*/
@@ -111,12 +112,16 @@ article,aside,figure,footer,header,hgroup,nav,section{display:block;padding:10px
 @media print{
 	/*Tag-level*/
 	a[href^=http]:after{content:" (" attr(href) ") ";font-size:.8em;font-weight:normal;}
-  abbr[title]:after,acronym[title]:after{content:" (" attr(title) ") ";font-size:.8em;font-weight:normal;}
+	abbr[title]:after,acronym[title]:after{content:" (" attr(title) ") ";font-size:.8em;font-weight:normal;}
 
 	/*Structure*/
 	.page,article{float:none;margin:0;padding:0;width:100%;}
+		article .content{display:block;}
 		aside,footer,header,nav,.noprint{display:none;}
 	}
 @media only screen and (min-width: 961px){
-	
+	.page{width:960px;}
+		header nav{float:right;text-align:right;}
+		article{width:560px;}
+	.slider{background:url("../images/slidebg.png") no-repeat scroll top right transparent;display:block;float:right;height:500px;width:280px;}
 	}
