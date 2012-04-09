@@ -16,8 +16,8 @@ ul{list-style-type:none;margin:.5em 0;padding:0 1em;}
 	ul>li:before{content:"\25BA";display:block;font-size:.7em;height:0;left:-2.1em;position:relative;top:.3em;}
 
 /*-Heading-*/
-h1{font-size:2.25em;margin:.75em 0 .25em 0;}
-	h1>a:link,h1>a:visited{}
+h1{font-size:4.5em;margin:0 0 .25em 0;}
+	h1>a:link,h1>a:visited{color:#fffcee;text-decoration:none;text-shadow:-2px 2px 3px #514E49;}
 	h1>a:hover,h1>a:focus,h1>a:active{}
 h2{font-size:1.75em;margin:.75em 0 .25em 0;}
 	h2>a:link,h2>a:visited{}
@@ -87,16 +87,21 @@ sup{bottom:.33em;position:relative;vertical-align:baseline;}
 .column{float:left;margin:1.5em 0;width:50%;}
 	.columnated-text{-moz-column-count:2;-moz-column-gap:2em;-moz-hyphens:auto;-webkit-column-count:2;-webkit-column-gap:2em;-webkit-hyphens:auto;column-count:2;column-gap:2em;hyphens:auto;text-align:justify;}
 .hide{display:none;}
-	.away{overflow:hidden;text-indent:100%;white-space: nowrap;}
+	.away{overflow:hidden;text-indent:100%;white-space:nowrap;}
+.social{background:url('../images/social_sprite_v1.png') no-repeat top left;display:inline-block;height:0;padding:64px 64px 0 0;width:0;}
+	.social.facebook{}
+	.social.twitter{background-position:-64px 0;}
+	.social.flickr{background-position:-128px 0;}
+	.social.youtube{background-position:-192px 0;}
 
 /*--Structure--*/
 article,aside,figure,footer,header,hgroup,nav,section{display:block;}
-	footer,header,nav,section{padding:10px;}
+	footer,header,section{padding:10px;}
 .page{margin:0 auto;}
-	header{clear:both;margin:10px;}
-		header nav{}
+	header{clear:both;}
+		header nav{padding:1.5em 0 0 0;}
 			header nav a{color:#fffcee;display:block;}
-		header h1 a,header h1 a:visited{color:#fffcee;font-size:2em;text-decoration:none;text-shadow:-2px 2px 3px #514E49;}
+		header h1 a,header h1 a:visited{}
 		header fieldset{border:0 none;}
 			header legend{display:none;}
 	section{}
