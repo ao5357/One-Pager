@@ -78,7 +78,8 @@ hr{background-color:#808080;border-width:0;color:#808080;height:.2em;line-height
 mark{background:#ff9e00;margin:-.2em;padding:.2em;}
 meter{-moz-appearance:progressbar;}
 
-p{clear:both;margin:1.5em 0;}
+p{margin:1.5em 0;}
+	p a img{float:left;margin:0 10px 0 0;}
 q{quotes:"\201C""\201D""\2018""\2019";}
 sub{bottom:-.25em;position:relative;vertical-align:baseline;}
 sup{bottom:.33em;position:relative;vertical-align:baseline;}
