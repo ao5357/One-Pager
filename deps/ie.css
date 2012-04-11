@@ -1,4 +1,6 @@
 	.page{width:960px;}
 		header nav{float:right;text-align:right;}
-		article{width:560px;}
+		article{width:660px;}
+		footer{}
+			.footer-social{float:right;}
 	.slider{background:url("../images/slidebg.png") no-repeat scroll top right transparent;display:block;float:right;height:500px;width:280px;}
