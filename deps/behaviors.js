@@ -17,7 +17,7 @@ jQuery(document).ready(function($){
 	$articles = $("article");
 		$articles.find(".content").addClass("hide");
 		$articles.on("click","h2",function(e){
-			$(this).siblings(".content").toggleClass("hide");
+			$(this).siblings(".content").toggleClass("hide slide-down");
 			});
 
 	var $slider = $('.slider'), offset = 0;

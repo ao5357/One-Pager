@@ -19,10 +19,11 @@
 <header>
 	<nav>
 		<a href="#">Log in/Sign up</a>
+		<a href="#footer">Location/Hours</a>
 	</nav>
 	<h1><a href="#">Niceville Library</a></h1>
 	<form id="search"><fieldset><legend>Search Catalog</legend>
-		<label for="searchText"><a href="#">Catalog</a></label><input id="searchText" placeholder="search books and more" type="search">
+		<label for="searchText"><a href="#">Catalog</a></label><input id="searchText" placeholder="Search books and more" type="search">
 		<input type="submit" value="Search">
 	</fieldset></form>
 </header>
@@ -150,16 +151,16 @@
 	</article>
 </section>
 
-<footer>
-	<strong>Open today: 10-9<br />(555) 555-5555<br />hello@nicevillelibrary.org</strong>
-	<div class="footer-logo">
+<footer id="footer">
+	<div class="footer-social">
 		<a class="social facebook" href="#" title="Like us on Facebook"></a> 
 		<a class="social twitter" href="#" title="Follow us on Twitter"></a> 
 		<a class="social flickr" href="#" title="Photos on Flickr"></a> 
 		<a class="social youtube" href="#" title="Videos on YouTube"></a>
 	</div>
+	<strong>Open today: 10-9<br />(555) 555-5555<br />hello@nicevillelibrary.org</strong>
 </footer>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script><!-- Remove the http: part when deployed -->
 <script src="deps/behaviors.js"></script>
 </div></body></html>
