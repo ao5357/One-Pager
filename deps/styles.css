@@ -16,7 +16,7 @@ ul{list-style-type:none;margin:.5em 0;padding:0 1em;}
 	ul>li:before{content:"\25BA";display:block;font-size:.7em;height:0;left:-2.1em;position:relative;top:.3em;}
 
 /*-Heading-*/
-h1{font-size:4.5em;margin:0;}
+h1{font-size:4em;margin:0;}
 	h1>a:link,h1>a:visited{color:#fffcee;text-decoration:none;text-shadow:-2px 2px 3px #514E49;}
 	h1>a:hover,h1>a:focus,h1>a:active{}
 h2{font-size:1.75em;margin:.75em 0 .25em 0;}
@@ -37,10 +37,10 @@ h6{font-size:.75em;margin:.75em 0 .25em 0;}
 
 /*-Form-*/
 fieldset{background:#fff;background:rgba(255,255,255,.25);border:.1em solid #e3e3e3;margin:0;padding:1em;}
-	label{margin:0 1em 0 0;}
+	label{font-size:1.3em;margin:0 1em 0 0;}
 		label a{}
 	legend{display:none;}
-	[role=button],button,code,input,pre,select,textarea{border:.1em solid;border-color:#bbb #ccc #ccc #bbb;color:#111;font-family:Arial,sans-serif;font-size:1.3em;line-height:normal;margin:0 1em 0 0;vertical-align:top;}
+	[role=button],button,code,input,pre,select,textarea{border:.1em solid;border-color:#bbb #ccc #ccc #bbb;color:#111;font-family:Arial,sans-serif;font-size:1.3em;line-height:normal;margin:0 1em .5em 0;vertical-align:top;}
 		[role=button],button,input[type=submit],select{background-color:#f9f9f9;background-image:-moz-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-ms-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-o-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:-webkit-linear-gradient(bottom,rgba(0,0,0,.1),transparent);background-image:linear-gradient(bottom,rgba(0,0,0,.1),transparent);border:.1em solid;border-color:#ccc #bbb #bbb #ccc;cursor:pointer;filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorstr=#ffffffff,endColorstr=#21000000);}
 		[role=button],button,input[type=submit]{border-radius:.3em;color:#111;padding:.1em 1em;}
 			[role=button]:hover,button:hover,input[type=submit]:hover{background-color:#f0f0f0;}
@@ -96,7 +96,7 @@ sup{bottom:.33em;position:relative;vertical-align:baseline;}
 
 /*--Structure--*/
 article,aside,figure,footer,header,hgroup,nav,section{display:block;}
-.page{margin:0 auto;}
+.page{margin:0 auto;padding:0 1em;}
 	header{clear:both;}
 		header nav{padding:1.5em 0 0 0;}
 			header nav a{color:#fffcee;display:block;}
