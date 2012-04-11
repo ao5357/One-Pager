@@ -48,7 +48,7 @@ fieldset{background:#fff;background:rgba(255,255,255,.25);border:.1em solid #e3e
 		[role=button]{display:inline-block;line-height:1.3;text-decoration:none;}
 		input:-moz-placeholder{color:graytext;}
 		input[type=file]{font-size:.714em;}
-		input[type=search]{-webkit-appearance:textfield;}
+		input[type=search]{-webkit-appearance:textfield;max-width:245px;}
 		select[size],select[multiple]{background-image:none;}
 			optgroup{background:transparent;}
 				option{background:transparent;}
