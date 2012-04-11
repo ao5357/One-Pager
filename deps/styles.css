@@ -107,7 +107,7 @@ article,aside,figure,footer,header,hgroup,nav,section{display:block;}
 			article h2{cursor:pointer;padding:.25em .5em;}
 				article h2:hover,article h2:active,article h2:focus{background-color:#444;background-image:-webkit-linear-gradient(#514E49,#5B5956);background-image:-moz-linear-gradient(#514E49,#5B5956);color:#fff;}
 			article .content{padding:0 1em 1em;}
-	footer{background:#fff;background:rgba(255,255,255,.25);clear:both;margin:1em;padding:1em;}
+	footer{background:#fff;background:rgba(255,255,255,.25);border:.1em solid #e3e3e3;clear:both;margin:1.4em 0;padding:1em;}
 
 /*--Media Queries--*/
 /*-Print-*/
