@@ -64,7 +64,7 @@ table{border:.1em solid #ccc;border-collapse:collapse;border-spacing:0;font-size
 
 /*-Other-*/
 abbr{border-bottom:.1em dotted #666;cursor:help;white-space:nowrap;}
-address{font-style:italic;}
+address{float:left;font-style:normal;margin:0 1em 0 0;}
 blockquote{background:#f9f9f9;border-left:1em solid #eee;margin:1.5em 1em;padding:.5em 1em;quotes:'\201C' '\201C' '\201C' '\201C';}
 	blockquote:before{color:#808080;content:open-quote;font-size:4em;line-height:.1em;margin-right:.25em;vertical-align:-.4em;}
 	blockquote > :first-child{display:inline;}
@@ -112,7 +112,8 @@ article,aside,figure,footer,header,hgroup,nav,section{display:block;}
 			article h2{cursor:pointer;padding:.25em .5em;}
 				article h2:hover,article h2:active,article h2:focus{background-color:#444;background-image:-webkit-linear-gradient(#514E49,#5B5956);background-image:-moz-linear-gradient(#514E49,#5B5956);color:#fff;}
 			article .content{padding:0 1em 1em;}
-	footer{background:#fff;background:rgba(255,255,255,.25);border:.1em solid #e3e3e3;clear:both;margin:1.4em 0;padding:1em;}
+	footer{background:#fff;background:rgba(255,255,255,.25);border:.1em solid #e3e3e3;clear:both;margin:1.4em 0;overflow:auto;padding:1em;}
+		a.loc-map{background:url("../images/map.png") no-repeat scroll top left transparent;display:block;margin:.5em 0;padding:0 0 0 90px;}
 
 /*--Media Queries--*/
 /*-Print-*/
